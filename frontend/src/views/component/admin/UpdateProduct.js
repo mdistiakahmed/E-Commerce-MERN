@@ -4,7 +4,7 @@ import {
   clearErrors,
   updateProduct,
   getProductDetails,
-} from "../../../store/actions/productAction";
+} from "../../../store/product/productAction";
 import { Button } from "@mui/material";
 import MetaData from "../layout/MetaData";
 import AccountTreeIcon from "@mui/icons-material/AccountTree";

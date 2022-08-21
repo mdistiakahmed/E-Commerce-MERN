@@ -7,11 +7,7 @@ import LockOpenIcon from "@mui/icons-material/LockOpen";
 import FaceIcon from "@mui/icons-material/Face";
 
 import { useDispatch, useSelector } from "react-redux";
-import {
-  clearErrors,
-  login,
-  register,
-} from "../../../store/actions/userAction";
+import { clearErrors, login, register } from "../../../store/user/userAction";
 import { useNavigate } from "react-router-dom";
 
 import { ToastContainer, toast } from "react-toastify";

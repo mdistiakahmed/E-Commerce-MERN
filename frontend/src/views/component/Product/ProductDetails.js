@@ -4,12 +4,12 @@ import { useSelector, useDispatch } from "react-redux";
 import {
   getProductDetails,
   newReview,
-} from "../../../store/actions/productAction";
+} from "../../../store/product/productAction";
 import { useParams } from "react-router-dom";
 import ReviewCard from "./ReviewCard";
 import Loader from "../layout/loader/Loader";
 import MetaData from "../layout/MetaData";
-import { addItemsToCart } from "../../../store/actions/cartAction";
+import { addItemsToCart } from "../../../store/cart/cartAction";
 import Rating from "@mui/material/Rating";
 
 import { ToastContainer, toast } from "react-toastify";

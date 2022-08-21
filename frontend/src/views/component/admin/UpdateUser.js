@@ -10,7 +10,7 @@ import {
   getUserDetails,
   updateUser,
   clearErrors,
-} from "../../../store/actions/userAction";
+} from "../../../store/user/userAction";
 import Loader from "../layout/loader/Loader";
 import { useParams, useNavigate } from "react-router-dom";
 import { Button } from "@mui/material";

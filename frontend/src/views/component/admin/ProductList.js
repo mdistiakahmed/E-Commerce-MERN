@@ -11,7 +11,7 @@ import { DataGrid } from "@mui/x-data-grid";
 import {
   getAdminProduct,
   deleteProduct,
-} from "../../../store/actions/productAction";
+} from "../../../store/product/productAction";
 import { useNavigate } from "react-router-dom";
 
 const ProductList = () => {

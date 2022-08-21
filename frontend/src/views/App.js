@@ -10,7 +10,7 @@ import Products from "./component/Product/Products";
 import Search from "./component/Product/Search";
 import LoginSignUp from "./component/user/LoginSignUp";
 import store from "../store/store";
-import { loadUser } from "../store/actions/userAction";
+import { loadUser } from "../store/user/userAction";
 import UserOptions from "./component/layout/header/UserOptions";
 import { useSelector } from "react-redux";
 import Profile from "./component/user/Profile";

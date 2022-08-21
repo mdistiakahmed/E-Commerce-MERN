@@ -4,7 +4,7 @@ import Loader from "../layout/loader/Loader";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 
 import { useDispatch, useSelector } from "react-redux";
-import { clearErrors, forgotPassword } from "../../../store/actions/userAction";
+import { clearErrors, forgotPassword } from "../../../store/user/userAction";
 import { useNavigate } from "react-router-dom";
 
 import { ToastContainer, toast } from "react-toastify";

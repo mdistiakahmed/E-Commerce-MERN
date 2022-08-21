@@ -12,7 +12,7 @@ import Dashboard from "@mui/icons-material/Dashboard";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
-import { logout } from "../../../../store/actions/userAction";
+import { logout } from "../../../../store/user/userAction";
 import { useDispatch, useSelector } from "react-redux";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 

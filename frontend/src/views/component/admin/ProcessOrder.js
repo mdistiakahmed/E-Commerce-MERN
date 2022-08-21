@@ -6,7 +6,7 @@ import {
   getOrderDetails,
   clearErrors,
   updateOrder,
-} from "../../../store/actions/orderAction";
+} from "../../../store/order/orderAction";
 import { useSelector, useDispatch } from "react-redux";
 import Loader from "../layout/loader/Loader";
 import AccountTreeIcon from "@mui/icons-material/AccountTree";

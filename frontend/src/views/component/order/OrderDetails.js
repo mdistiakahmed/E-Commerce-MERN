@@ -1,10 +1,7 @@
 import React, { Fragment, useEffect } from "react";
 import "./OrderDetails.css";
 import { useSelector, useDispatch } from "react-redux";
-import {
-  getOrderDetails,
-  clearErrors,
-} from "../../../store/actions/orderAction";
+import { getOrderDetails, clearErrors } from "../../../store/order/orderAction";
 import { Link, useParams } from "react-router-dom";
 import Loader from "../layout/loader/Loader";
 import MetaData from "../layout/MetaData";

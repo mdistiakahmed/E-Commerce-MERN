@@ -13,7 +13,7 @@ import {
   deleteOrder,
   getAllOrders,
   clearErrors,
-} from "../../../store/actions/orderAction";
+} from "../../../store/order/orderAction";
 import { DELETE_ORDER_RESET } from "../../../constants/orderConstants";
 
 const OrderList = () => {
