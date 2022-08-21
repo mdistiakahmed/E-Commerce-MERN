@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 import "./Shipping.css";
 import { useSelector, useDispatch } from "react-redux";
-import { saveShippingInfo } from "../../../actions/cartAction";
+import { saveShippingInfo } from "../../../store/actions/cartAction";
 import Metadata from "../layout/MetaData";
 import HomeIcon from "@mui/icons-material/Home";
 import LocationCityIcon from "@mui/icons-material/LocationCity";

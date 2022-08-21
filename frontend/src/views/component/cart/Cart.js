@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import {
   addItemsToCart,
   removeItemsFromCart,
-} from "../../../actions/cartAction";
+} from "../../../store/actions/cartAction";
 import RemoveShoppingCartIcon from "@mui/icons-material/RemoveShoppingCart";
 import { Typography } from "@mui/material";
 import { Link, useNavigate } from "react-router-dom";

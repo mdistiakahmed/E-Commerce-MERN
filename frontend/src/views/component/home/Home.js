@@ -3,7 +3,7 @@ import { CgMouse } from "react-icons/cg";
 import "./Home.css";
 import ProductCard from "./ProductCard.js";
 import MetaData from "../layout/MetaData";
-import { getProduct } from "../../../actions/productAction";
+import { getProduct } from "../../../store/actions/productAction";
 import { useSelector, useDispatch } from "react-redux";
 import Loader from "../layout/loader/Loader";
 

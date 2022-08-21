@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
 import "./NewProduct.css";
 import { useSelector, useDispatch } from "react-redux";
-import { createProduct } from "../../../actions/productAction";
+import { createProduct } from "../../../store/actions/productAction";
 import MetaData from "../layout/MetaData";
 import AccountTreeIcon from "@mui/icons-material/AccountTree";
 import DescriptionIcon from "@mui/icons-material/Description";

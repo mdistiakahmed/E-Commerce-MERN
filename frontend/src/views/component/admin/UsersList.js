@@ -11,7 +11,7 @@ import {
   getAllUsers,
   clearErrors,
   deleteUser,
-} from "../../../actions/userAction";
+} from "../../../store/actions/userAction";
 import { DELETE_USER_RESET } from "../../../constants/userConstants";
 import { Button } from "@mui/material";
 

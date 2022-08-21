@@ -8,7 +8,10 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import MetaData from "../layout/MetaData";
 import SideBar from "./Sidebar";
 import { DataGrid } from "@mui/x-data-grid";
-import { getAdminProduct, deleteProduct } from "../../../actions/productAction";
+import {
+  getAdminProduct,
+  deleteProduct,
+} from "../../../store/actions/productAction";
 import { useNavigate } from "react-router-dom";
 
 const ProductList = () => {

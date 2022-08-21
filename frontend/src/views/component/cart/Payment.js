@@ -16,7 +16,7 @@ import VpnKeyIcon from "@mui/icons-material/VpnKey";
 import CheckoutSteps from "./CheckoutSteps";
 import { Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import { clearErrors, createOrder } from "../../../actions/orderAction";
+import { clearErrors, createOrder } from "../../../store/actions/orderAction";
 
 const Payment = () => {
   const orderInfo = JSON.parse(sessionStorage.getItem("orderInfo"));

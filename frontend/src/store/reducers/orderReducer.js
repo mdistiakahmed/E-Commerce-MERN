@@ -20,7 +20,7 @@ import {
   DELETE_ORDER_SUCCESS,
   DELETE_ORDER_FAIL,
   DELETE_ORDER_RESET,
-} from "../constants/orderConstants";
+} from "../../constants/orderConstants";
 
 export const newOrderReducer = (state = {}, action) => {
   switch (action.type) {

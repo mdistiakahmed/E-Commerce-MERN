@@ -6,7 +6,7 @@ import Loader from "../layout/loader/Loader";
 import { DataGrid, GridColDef, GridValueGetterParams } from "@mui/x-data-grid";
 import { Typography } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
-import { myOrders } from "../../../actions/orderAction";
+import { myOrders } from "../../../store/actions/orderAction";
 import { Link } from "react-router-dom";
 
 const MyOrders = () => {

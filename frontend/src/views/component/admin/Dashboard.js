@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 import { Doughnut, Line } from "react-chartjs-2";
 import { Chart as ChartJS, registerables } from "chart.js";
 import { useSelector, useDispatch } from "react-redux";
-import { getAdminProduct } from "../../../actions/productAction";
-import { getAllOrders } from "../../../actions/orderAction";
-import { getAllUsers } from "../../../actions/userAction";
+import { getAdminProduct } from "../../../store/actions/productAction";
+import { getAllOrders } from "../../../store/actions/orderAction";
+import { getAllUsers } from "../../../store/actions/userAction";
 
 const Dashboard = () => {
   ChartJS.register(...registerables);

@@ -6,7 +6,7 @@ import {
   clearErrors,
   getAllReviews,
   deleteReviews,
-} from "../../../actions/productAction";
+} from "../../../store/actions/productAction";
 import MetaData from "../layout/MetaData";
 import DeleteIcon from "@mui/icons-material/Delete";
 import StarIcon from "@mui/icons-material/Star";

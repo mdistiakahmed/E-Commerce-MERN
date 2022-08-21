@@ -9,7 +9,7 @@ import {
   clearErrors,
   loadUser,
   updateProfile,
-} from "../../../actions/userAction";
+} from "../../../store/actions/userAction";
 import { useNavigate } from "react-router-dom";
 
 import { ToastContainer, toast } from "react-toastify";

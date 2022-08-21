@@ -21,7 +21,7 @@ import {
   DELETE_ORDER_SUCCESS,
   DELETE_ORDER_FAIL,
   DELETE_ORDER_RESET,
-} from "../constants/orderConstants";
+} from "../../constants/orderConstants";
 
 // Create Order
 
